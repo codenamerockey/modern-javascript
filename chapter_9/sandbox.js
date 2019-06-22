@@ -9,7 +9,7 @@ console.log(names);
 const scores = [10, 50, 20, 5, 35, 70, 45];
 
 // scores.sort();
-scores.reverse();
+scores.reverse(); // also takes sorted numbers and reverses the order vice versa.
 console.log(scores);
 
 
@@ -17,7 +17,7 @@ console.log(scores);
 scores.sort((a, b) => b - a); // sorts numbers highest to lowest
 scores.sort((a, b) => a - b); // sorts numbers lowest to highest 
 console.log(scores);
-console.log(scores.reverse()); // also takes sorted numbers and reverses the order vice versa.
+
 
 // example 3 - sorting objects
 const players = [
